@@ -1,0 +1,9 @@
+Challenge: Multiple
+    The code does not execute properly. Try to figure out why.
+ 
+Solution:
+    function multiply(a, b){
+      c = a * b;
+      return c;
+    }
+    
