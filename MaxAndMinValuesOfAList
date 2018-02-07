@@ -1,0 +1,23 @@
+Challenge: Find Maximum and Minimum Values of a List
+    Your task is to make two functions, max and min (maximum and minimum in PHP) that take a(n) array/vector of integers list as input and outputs, respectively, the largest and lowest number in that array/vector.
+
+Solution:
+    var min = function(list){
+    var listIndex = list[0];
+      for (i = 0; i < list.length; i++) {
+        if (list[i] < listIndex) {
+          listIndex = list[i];
+          }
+      }
+        return listIndex;
+    }
+
+    var max = function(list){
+      var listIndex = list[0];
+        for (i = 0; i < list.length; i++) {
+        if (list[i] > listIndex) {
+          listIndex = list[i];
+          }
+      }  
+        return listIndex;
+    }
